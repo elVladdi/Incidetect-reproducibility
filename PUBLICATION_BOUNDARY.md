@@ -18,7 +18,7 @@ Este repositorio público contiene una **especificación metodológica** destina
 
 Por restricciones de acceso/no publicación y por la finalidad de este paquete, no se incluyen:
 
-- las imágenes originales del TFM;
+- las imágenes utilizadas en el estudio original;
 - CSV o metadata reales;
 - nombres o identificadores operativos reales;
 - hashes de imágenes restringidas;

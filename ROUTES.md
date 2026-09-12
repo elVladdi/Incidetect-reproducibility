@@ -1,6 +1,6 @@
 # Alcances públicos de reproducción
 
-Este paquete permite reconstruir el método completo del TFM o una rama individual con datos propios/autorizados. Elegir una rama individual **no equivale** a reproducir la comparación completa de los tres modelos.
+Este paquete permite reconstruir el método completo del estudio original o una rama individual con datos propios/autorizados. Elegir una rama individual **no equivale** a reproducir la comparación completa de los tres modelos.
 
 ## Alcances disponibles
 
@@ -20,7 +20,7 @@ Este paquete permite reconstruir el método completo del TFM o una rama individu
 - No ajuste hiperparámetros ni umbrales con test.
 - En ResNet50, `tau*` se selecciona exclusivamente en validation (etapa 06) y se aplica después a test (etapa 08).
 - Una ejecución `hog_svm`, `cnn_ligera` o `resnet50` no puede afirmar que reconstruyó la comparación completa.
-- Los resultados históricos del TFM son referencias, no objetivos ni umbrales transferibles.
+- Los resultados históricos del estudio original son referencias, no objetivos ni umbrales transferibles.
 - Una réplica con otro dominio, equipo, población o prevalencia debe documentar esas diferencias.
 
 Para el orden detallado consulte [PIPELINE_ORDER.md](PIPELINE_ORDER.md) y las especificaciones en [`specs/`](specs/).

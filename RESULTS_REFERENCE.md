@@ -1,10 +1,10 @@
 # Referencia de resultados
 
-Este archivo separa tres capas: resultados históricos del TFM, verificación post-hoc y resultados de futuras réplicas.
+Este archivo separa tres capas: resultados históricos del estudio original, verificación post-hoc y resultados de futuras réplicas.
 
-## Resultados históricos del TFM
+## Resultados históricos del estudio original
 
-Los valores siguientes corresponden al dataset restringido del TFM y no deben transferirse como objetivos a datos externos.
+Los valores siguientes corresponden al dataset restringido del estudio original y no deben transferirse como objetivos a datos externos.
 
 | Modelo/configuración | Matriz test `[TN, FP, FN, TP]` | Accuracy | Precision (+) | Recall (+) | F1 (+) | FPR | ROC-AUC | AP |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -16,7 +16,7 @@ En HOG+SVM y CNN, precision, recall, F1 y FPR de la tabla se derivan determinís
 
 Para ResNet50, el umbral histórico fue `tau*=0.6017084718`, seleccionado en validation y aplicado después a test.
 
-El criterio predictivo conjunto del TFM **no se cumplió**: ROC-AUC `0.8596 >= 0.85` y FPR `0.1818 <= 0.20` cumplieron individualmente, pero Recall `0.7647 < 0.80`.
+El criterio predictivo conjunto del estudio original **no se cumplió**: ROC-AUC `0.8596 >= 0.85` y FPR `0.1818 <= 0.20` cumplieron individualmente, pero Recall `0.7647 < 0.80`.
 
 ## Verificación post-hoc
 

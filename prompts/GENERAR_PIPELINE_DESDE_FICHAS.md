@@ -19,7 +19,7 @@ Repositorio público de procedencia: `https://github.com/elVladdi/Incidetect-rep
 4. No use como fuente metodológica archivos privados o externos a `PAQUETE_RAIZ`.
 5. Lea primero `PAQUETE_RAIZ/README.md`.
 6. Si la ejecución requiere trazabilidad estricta, valide `PAQUETE_RAIZ/manifest/SHA256SUMS.txt` antes de implementar.
-7. Exija un dataset **propio o autorizado** compatible con `PAQUETE_RAIZ/DATASET_SPEC.md`. No solicite ni reconstruya datos, IDs, código, notebooks o checkpoints históricos del TFM.
+7. Exija un dataset **propio o autorizado** compatible con `PAQUETE_RAIZ/DATASET_SPEC.md`. No solicite ni reconstruya datos, IDs, código, notebooks o checkpoints históricos del estudio original.
 
 Este prompt ayuda a crear **software nuevo e independiente** a partir de las especificaciones públicas. No contiene código histórico y no garantiza reproducir las métricas históricas.
 
@@ -128,7 +128,7 @@ Este alcance reconstruye únicamente la rama ResNet50 y no demuestra la comparac
 - No transfiera `tau*`, métricas, matrices o checkpoints históricos a datos externos.
 - Registre semilla, versiones de dependencias, hardware relevante y criterios de selección de artefactos de su propia ejecución.
 - Si el dataset difiere en equipo, dominio, población o condiciones de adquisición, documente el posible `domain shift`.
-- No presente resultados de un dataset externo como reproducción numérica del TFM.
+- No presente resultados de un dataset externo como reproducción numérica del estudio original.
 
 ## Decisiones abiertas y brechas
 
@@ -169,7 +169,7 @@ La implementación generada debe quedar separada de `PAQUETE_RAIZ` o en un direc
 
 Use `RESULTS_REFERENCE.md` únicamente como referencia histórica y de límites. Una réplica correcta puede producir métricas diferentes.
 
-No declare que ResNet50 "debe ganar" en un dataset externo. No declare cumplimiento de criterios del TFM a partir de valores históricos. Evalúe cualquier criterio nuevo sobre los resultados de la nueva ejecución.
+No declare que ResNet50 "debe ganar" en un dataset externo. No declare cumplimiento de criterios del estudio original a partir de valores históricos. Evalúe cualquier criterio nuevo sobre los resultados de la nueva ejecución.
 
 ## Cierre
 

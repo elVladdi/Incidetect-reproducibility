@@ -4,7 +4,7 @@ Este repositorio distingue entre **evidencia histórica**, **verificación post-
 
 ## 1. Evidencia histórica
 
-Los resultados históricos del TFM se conservan como referencia del experimento realizado sobre el dataset restringido. El paquete no reconstruye retrospectivamente metadatos que no fueron recuperados con certeza.
+Los resultados históricos del estudio original se conservan como referencia del experimento realizado sobre el dataset restringido. El paquete no reconstruye retrospectivamente metadatos que no fueron recuperados con certeza.
 
 ## 2. Verificación post-hoc
 
@@ -16,13 +16,13 @@ Se realizaron comprobaciones posteriores para evaluar trazabilidad y comportamie
 - Se confirmó técnicamente que la lógica de fine-tuning de ResNet50 actualiza capas convolucionales profundas en el entorno de referencia comprobado.
 - La medición de latencia disponible es post-hoc y no se presenta como baseline histórico.
 
-Estas verificaciones no sustituyen las métricas históricas del TFM.
+Estas verificaciones no sustituyen las métricas históricas del estudio original.
 
 ## 3. Replicación metodológica externa
 
 El repositorio público no contiene código histórico ni datos restringidos. Su propósito es permitir que un tercero construya una implementación nueva con datos propios/autorizados siguiendo las especificaciones publicadas.
 
-Una réplica externa puede validar **equivalencia procedimental**, pero no se le exige identidad numérica con las métricas del TFM.
+Una réplica externa puede validar **equivalencia procedimental**, pero no se le exige identidad numérica con las métricas del estudio original.
 
 ## Límites de trazabilidad recuperada
 
@@ -37,4 +37,4 @@ Estas brechas se publican como límites de evidencia. No deben completarse por i
 
 ## Implicación para el usuario
 
-Al reutilizar el paquete, documente su propio dataset, entorno, particiones, decisiones abiertas y resultados. Si cambia el dominio, equipo, población o condiciones de adquisición, trate esa diferencia como posible `domain shift` y no atribuya al TFM resultados obtenidos bajo condiciones nuevas.
+Al reutilizar el paquete, documente su propio dataset, entorno, particiones, decisiones abiertas y resultados. Si cambia el dominio, equipo, población o condiciones de adquisición, trate esa diferencia como posible `domain shift` y no atribuya al estudio original resultados obtenidos bajo condiciones nuevas.
