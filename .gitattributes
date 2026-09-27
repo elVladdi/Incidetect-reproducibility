@@ -1,0 +1,2 @@
+# Normalize tracked text files to LF for deterministic SHA-256 verification.
+* text=auto eol=lf
